@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Enable true color
+tmux set -ga terminal-overrides ",xterm-256color:Tc"
+
 # Put status on top
 tmux set -g status-position top
 
