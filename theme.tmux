@@ -14,7 +14,7 @@ tmux set -g status-bg "#282C34"
 tmux set -g status-fg "#ABB2BF"
 
 # status left
-tmux set -g status-left "#[bg=#C678DD,fg=#282C34,bold]   #S "
+tmux set -g status-left "#[bg=#C678DD,fg=#282C34,bold] ❐ #S "
 
 # default window title colors
 tmux setw -g window-status-bg "#282C34"
